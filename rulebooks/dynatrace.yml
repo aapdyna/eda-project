@@ -3,8 +3,8 @@
   hosts: all
   sources:
     - dynatrace.event_driven_ansible.dt_esa_api:
-        dt_api_host: "https://qxb15856.apps.dynatrace.com"
-        dt_api_token: "dt0c01.NULN533JYQTOUZAYONS5QYUL.4ZSF3OMV7BS6PEMGBBDWXDPJVHWX6WLC6YPVQPMAZH7KLH6RZBHAKL6UHJNRDXTQ"
+        dt_api_host: 
+        dt_api_token: 
         delay: 60 (Default is 1 min) i.e plugin runs every 1 minute
 
   rules:
